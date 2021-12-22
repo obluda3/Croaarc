@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Croaarc": {
+      "commandName": "Project",
+      "commandLineArgs": "-e resource.dat"
+    }
+  }
+}

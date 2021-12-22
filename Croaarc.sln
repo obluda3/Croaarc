@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Croaarc", "Croaarc\Croaarc.csproj", "{3160EF4E-9509-4FD3-86FF-F0BFA02E3BF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3160EF4E-9509-4FD3-86FF-F0BFA02E3BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3160EF4E-9509-4FD3-86FF-F0BFA02E3BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3160EF4E-9509-4FD3-86FF-F0BFA02E3BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3160EF4E-9509-4FD3-86FF-F0BFA02E3BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E122B46-4D81-47F0-A402-CD83B5CF068E}
+	EndGlobalSection
+EndGlobal
