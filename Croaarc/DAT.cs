@@ -25,16 +25,17 @@ namespace Croaarc
 
                 var initKey = br.ReadByte();
                 byte key = initKey;
-
+                Console.WriteLine($"File {Path.GetFileName(input)}: {fileCount} files");
                 br.BaseStream.Position = offsetToFileTable;
                 for(var i = 0; i < fileCount; i++)
                 {
                     var fileName1 = br.ReadCStringXored(initKey);
                     var fileName2 = br.ReadCStringXored(initKey);
+                    /*
                     if(fileName1 != fileName2)
                     {
                         Console.WriteLine($"Interesting at 0x{br.BaseStream.Position:X} mismatch between filename 1 and 2 {fileName1} vs {fileName2}");
-                    }
+                    }*/
                     var offset = br.ReadInt32Xored(initKey);
                     var size = br.ReadInt64Xored(initKey);
 
